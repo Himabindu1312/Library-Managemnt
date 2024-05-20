@@ -1,0 +1,31 @@
+publisher_code,publisher_name,publisher_country
+001,Book Haven,United States
+002,Novel World,United Kingdom
+003,Storyteller Press,Canada
+004,Page Turner Books,Australia
+005,Imagination Ink,Germany
+006,Plot Twist Publishers,France
+007,Adventure Books,Italy
+008,Chapter One Publishing,Spain
+009,Verse Ventures,Japan
+010,Whimsy Press,South Korea
+011,Fiction Forge,India
+012,Legend Books,Brazil
+017,Dreamscape Publishing,Mexico
+018,Quest Publishing,Argentina
+022,Frontier Press,South Africa
+023,Fantasy Fiction,New Zealand
+024,Mythical Publishing,Netherlands
+025,Saga Books,Sweden
+026,Tale Teller Press,Denmark
+027,Enigma Editions,Norway
+028,Fable Publishing,Finland
+029,Chronicle Books,Ireland
+030,Mythos Media,Switzerland
+031,Epic Tales,Austria
+032,Legend Lore,Portugal
+033,Spectacle Stories,Belgium
+034,Whispering Woods,Greece
+035,Adventurous Reads,Poland
+036,Fairytale Publishing,Russia
+037,Mystery Manor,Czech Republic

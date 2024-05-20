@@ -1,0 +1,15 @@
+mysql> DELIMITER //
+mysql> CREATE TRIGGER notify_membership_renewal
+    -> BEFORE UPDATE ON Card
+    -> FOR EACH ROW
+    -> BEGIN
+    ->     IF NEW.Expiry_date < CURDATE() THEN
+    ->         -- Notify the member about membership renewal
+    ->         INSERT INTO Notifications (Member_ID, Message, Notification_date)
+    ->         VALUES (NEW.Member_ID, 'Your membership is due for renewal.', CURDATE());
+    ->     END IF;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> DELIMITER ;

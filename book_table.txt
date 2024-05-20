@@ -1,0 +1,31 @@
+ISBN,Title,Author_name,Description,Copies_on_loan,Number_of_copies,publisher_code,Genre_ID
+978-0451457998,The Hobbit,J.R.R. Tolkien,Fantasy novel about the journey of Bilbo Baggins,0,10,001,1
+978-0547928227,Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy novel about a young wizard,0,10,002,1
+978-1984801258,1984,George Orwell,Dystopian novel about a totalitarian regime,0,10,003,2
+978-0316228534,The Martian,Andy Weir,Science fiction novel about an astronaut stranded on Mars,0,10,004,2
+978-0062498533,To Kill a Mockingbird,Harper Lee,Classic novel exploring racial injustice in the American South,0,10,005,3
+978-0140186834,The Catcher in the Rye,J.D. Salinger,Coming-of-age novel about teenage angst,0,10,006,3
+978-0743273565,The Great Gatsby,F. Scott Fitzgerald,Classic novel set in the Jazz Age,0,10,007,3
+978-0143127550,The Fault in Our Stars,John Green,Young adult novel about two cancer patients who fall in love,0,10,008,4
+978-1451673319,The Girl on the Train,Paula Hawkins,Thriller novel about a woman who becomes involved in a missing persons investigation,0,10,009,5
+978-0812988406,Becoming,Michelle Obama,Memoir of former First Lady Michelle Obama,0,10,010,6
+978-0553803716,Dune,Frank Herbert,Science fiction novel set in a distant future,0,10,011,2
+978-0062315007,The Goldfinch,Donna Tartt,Literary novel about a young boy who survives a terrorist attack,0,10,012,3
+978-0525509288,Circe,Madeline Miller,Retelling of the story of the Greek mythological figure Circe,0,10,017,8
+978-1250301697,Where the Crawdads Sing,Delia Owens,Mystery novel about a young girl growing up in the marshes of North Carolina,0,10,018,9
+978-0451457999,The Fellowship of the Ring,J.R.R. Tolkien,Fantasy novel about the journey of the Ring,0,10,022,1
+978-0385514240,The Catcher in the Rye,J.D. Salinger,Coming-of-age novel about teenage angst,0,10,023,3
+978-0812988407,Animal Farm,George Orwell,Satirical allegorical novella about Stalinism,0,10,024,2
+978-0312282990,The Grapes of Wrath,John Steinbeck,Novel about the plight of a family during the Great Depression,0,10,025,10
+978-0062325146,Brave New World,Aldous Huxley,Dystopian novel about a future world state,0,10,026,2
+978-1982104156,The Odyssey,Homer,Epic poem recounting the journey of Odysseus,0,10,027,11
+978-0140449198,One Hundred Years of Solitude,Gabriel García Márquez,Novel depicting the Buendía family's history,0,10,028,12
+978-0061120084,The Catcher in the Rye,J.D. Salinger,Coming-of-age novel about teenage angst,0,10,029,3
+978-0553382836,The Shining,Stephen King,Horror novel about a haunted hotel,0,10,030,13
+978-0062671158,Nineteen Eighty-Four,George Orwell,Dystopian novel about a totalitarian regime,0,10,031,2
+978-1400079988,Frankenstein,Mary Shelley,Science fiction novel about a scientist who creates a sapient creature,0,10,032,14
+978-0141439563,Moby-Dick,Herman Melville,Novel about the journey of the whaling ship Pequod,0,10,033,15
+978-0316769488,The Catcher in the Rye,J.D. Salinger,Coming-of-age novel about teenage angst,0,10,034,3
+978-1451673318,The Girl on the Train,Paula Hawkins,Thriller novel about a woman who becomes involved in a missing persons investigation,0,10,035,5
+978-1781398210,The Great Gatsby,F. Scott Fitzgerald,Classic novel set in the Jazz Age,0,10,036,3
+978-0141439594,The Catcher in the Rye,J.D. Salinger,Coming-of-age novel about teenage angst,0,10,037,3

@@ -1,0 +1,20 @@
+mysql> DELIMITER //
+mysql> CREATE TRIGGER notify_overdue_book
+    -> AFTER INSERT ON Borrows
+    -> FOR EACH ROW
+    -> BEGIN
+    ->     DECLARE grace_period INT;
+    ->     DECLARE overdue_days INT;  -- Declare variables at the beginning
+    ->     SET grace_period = 7;  -- One week grace period
+    ->
+    ->     IF NEW.Return_date IS NULL AND NEW.Due_date < CURDATE() - INTERVAL grace_period DAY THEN
+    ->         -- Calculate overdue days
+    ->         SET overdue_days = DATEDIFF(CURDATE(), NEW.Due_date);
+    ->
+    ->         -- Notify the member about the overdue book
+    ->         INSERT INTO Notifications (Member_ID, Message, Notification_date)
+    ->         VALUES (NEW.Member_ID, CONCAT('You have an overdue book. It is ', overdue_days, ' days overdue.'), CURDATE());
+    ->     END IF;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.04 sec)

@@ -1,0 +1,37 @@
+SELECT 
+    bk.Description AS Subject_area,
+    bk.Author_name AS Author,
+    COUNT(*) AS Number_of_copies,
+    DATEDIFF(NOW(), MAX(br.checkout_date)) AS Number_of_days_loaned_out
+FROM
+    Borrows br
+        INNER JOIN
+    Book bk ON br.ISBN = bk.ISBN
+GROUP BY bk.Description, bk.Author_name;
+
+
+mysql> SELECT
+    ->     bk.Description AS Subject_area,
+    ->     bk.Author_name AS Author,
+    ->     COUNT(*) AS Number_of_copies,
+    ->     DATEDIFF(NOW(), MAX(br.checkout_date)) AS Number_of_days_loaned_out
+    -> FROM
+    ->     Borrows br
+    ->         INNER JOIN
+    ->     Book bk ON br.ISBN = bk.ISBN
+    -> GROUP BY bk.Description, bk.Author_name;
++--------------------------------------------------------------------------------------+---------------------+------------------+---------------------------+
+| Subject_area                                                                         | Author              | Number_of_copies | Number_of_days_loaned_out |
++--------------------------------------------------------------------------------------+---------------------+------------------+---------------------------+
+| Fantasy novel about the journey of Bilbo Baggins                                     | J.R.R. Tolkien      |                1 |                        26 |
+| Fantasy novel about a young wizard                                                   | J.K. Rowling        |                1 |                        25 |
+| Dystopian novel about a totalitarian regime                                          | George Orwell       |                1 |                        24 |
+| Science fiction novel about an astronaut stranded on Mars                            | Andy Weir           |                1 |                        23 |
+| Classic novel exploring racial injustice in the American South                       | Harper Lee          |                1 |                        22 |
+| Coming-of-age novel about teenage angst                                              | J.D. Salinger       |                1 |                        21 |
+| Classic novel set in the Jazz Age                                                    | F. Scott Fitzgerald |                1 |                        20 |
+| Young adult novel about two cancer patients who fall in love                         | John Green          |                1 |                        19 |
+| Thriller novel about a woman who becomes involved in a missing persons investigation | Paula Hawkins       |                1 |                        18 |
+| Memoir of former First Lady Michelle Obama                                           | Michelle Obama      |                1 |                        17 |
++--------------------------------------------------------------------------------------+---------------------+------------------+---------------------------+
+10 rows in set (0.00 sec)

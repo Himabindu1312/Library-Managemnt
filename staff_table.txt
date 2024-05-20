@@ -1,0 +1,12 @@
+Staff_ID,Name,Job_title
+1,John Doe,Chief Librarian
+2,Jane Smith,Departmental Associate Librarian
+3,Alice Johnson,Reference Librarian
+4,Bob Williams,Check-out Staff
+5,Emily Brown,Library Assistant
+6,Michael Davis,Departmental Associate Librarian
+7,Sarah Taylor,Reference Librarian
+8,David Martinez,Check-out Staff
+9,Samantha Miller,Library Assistant
+10,James Wilson,Reference Librarian
+
